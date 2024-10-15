@@ -5,13 +5,15 @@
 *  4 groups (cc/ia old/new),
 *  first 5 batches per language,
 *  200 examples per batch,
-*  500/500 characters from the beginning of the fist/second half of each text
+*  500/500 characters from the beginning of the fist/second half of each text.
 
 ## Annotation
+Please select one or more batches for a language you want to annotate. Do not forget to push the annotated files back to this repository.
+
 We ask to provide 3 binary labels for each example:
 * porn? empty/1: if the text looks like porn put 1, otherwise leave empty
 * unnatural? empty/1: if the most text looks unnatural (e.g. word lists in CEO, mostly boilerplate) put 1, otherwise leave empty
-* lang correct? 0/1: always fill this field (otherwise we will not distinguish labeled and unlabeled examples), put 0 if most of the text is not in the target language, otherwise put 1
+* lang correct? 0/1: always fill this field (otherwise we will not distinguish labeled and unlabeled examples), put 0 if most of the text is not in the target language, otherwise put 1.
 
 ## Advice on annotation
 Annotating 20 examples from Russian, batch0 took 5 minutes for me, thus, the estimated time for annotating 1 batch is 1 hour.
