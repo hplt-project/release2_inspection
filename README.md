@@ -1,4 +1,11 @@
 # release2_annotation
+## Purpose of annotation
+We want to get a rough idea about the actual content of the cleaned verion of the 2nd data release. More specifically, for a subset that should correspond to some language L we want to estimate:
+1) the proportion of texts that are in fact not in the language L,
+2) the proportion of texts that can be considered undesirable because they are unnatural,
+3) the proportion of texts that can be considered undesirable porn texts.
+
+Additionally, we plan to compare these characteristics for the older and the newer crawls, and also for the IA and CC crawls.
 
 ## Data for round 1 of annotation: 
 * samples stratified by language and crawl group,
