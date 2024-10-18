@@ -14,8 +14,9 @@ Additionally, we plan to compare these characteristics for the older and the new
 *  200 examples per batch,
 *  500/500 characters from the beginning of the fist/second half of each text.
 
-## inspection
-Please select one or more batches for a language you want to inspect. Do not forget to push the files with labels back to this repository.
+## Inspection
+Please select one or more batches for a language you want to inspect. "Reserve" the batch(es) by filling in your name in the [spreadsheet](https://docs.google.com/spreadsheets/d/1WleDoN8JEicVdW5S-hvOXId-BxWIVnJc2oVxn_YC41M/edit?usp=sharing).
+Fill in the labels and push the updated files back to this repository.
 
 We ask to provide 3 binary labels for each example:
 * porn? empty/1: if the text looks like porn put 1, otherwise leave empty
