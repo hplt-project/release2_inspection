@@ -20,7 +20,7 @@ Fill in the labels and push the updated files back to this repository.
 
 We ask to provide 3 binary labels for each example:
 * porn? empty/1: if the text looks like porn put 1, otherwise leave empty
-* unnatural? empty/1: if the most text looks unnatural (e.g. word lists in CEO, mostly boilerplate) put 1, otherwise leave empty
+* unnatural? empty/1: if the most text looks unnatural (e.g. word lists for SEO, mostly boilerplate) put 1, otherwise leave empty
 * lang correct? 0/1: always fill this field (otherwise we will not distinguish labeled and unlabeled examples), put 0 if most of the text is not in the target language, otherwise put 1.
 
 ## Advice on inspection
