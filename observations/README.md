@@ -39,3 +39,12 @@ Other:
 * All the non-Asturian documents came from Wikipedia (either ext, Extremeño, or an, Aragonese). These could be easily filtered out if we discard Wikipedia documents from  other languages that are not the target language (ast, Asturian, in this case).
 
 # Sampo,  [fin_Latn/batch0.tsv](../annot_round1/fin_Latn/batch0.tsv)
+
+* Porn: 2/200, one SEO spam and one terms of service -style text for a porn site.
+* Unnatural: 9/200, mostly poorly machine-translated or generated Finnish, one instance of mosly tabular data.
+* Language: 100% Finnish.
+
+Miscellaneous notes:
+
+* Several Wikipedia pages, most including insertions such as "[Edit WikiText]". I did not mark these as unnatural despite the insertions breaking the flow. It might be possible to do better here by extracting Wikipedia pages from dumps with a custom tool.
+* Several instances of text where the latter part was a list of links, in cases consisting of fragments interrupted by e.g. "... [read more]". I did not mark these as unnatural. Cleanup would require some form of line-level filtering.
