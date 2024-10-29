@@ -34,6 +34,8 @@ Identified language:
 * Only about half of the examples are in the correct language (Asturian). The rest are either in Spanish, or other Spanish minority languages (Extremeño, Aragonese, ...) that are quite similar to Asturian.
 * A lot of random list of contents for SEO (i.e. songs names) that are not even in Asturian.
 
+# Sampo [fin_Latn/batch0.tsv](../annot_round1/fin_Latn/batch0.tsv]
+
 Other:
 * Batch is mostly Wikipedia. Maybe we want to enhance the wikipedia boilerplate removal (see "unnatural language" above).
 * All the non-Asturian documents came from Wikipedia (either ext, Extremeño, or an, Aragonese). These could be easily filtered out if we discard Wikipedia documents from  other languages that are not the target language (ast, Asturian, in this case).
