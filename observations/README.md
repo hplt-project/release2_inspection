@@ -38,4 +38,4 @@ Other:
 * Batch is mostly Wikipedia. Maybe we want to enhance the wikipedia boilerplate removal (see "unnatural language" above).
 * All the non-Asturian documents came from Wikipedia (either ext, Extremeño, or an, Aragonese). These could be easily filtered out if we discard Wikipedia documents from  other languages that are not the target language (ast, Asturian, in this case).
 
-# Sampo [fin_Latn/batch0.tsv](../annot_round1/fin_Latn/batch0.tsv]
+# Sampo,  [fin_Latn/batch0.tsv](../annot_round1/fin_Latn/batch0.tsv]
