@@ -23,7 +23,7 @@ Other:
 * More PII than I expected, mainly phone numbers and email adresses.
 
 
-# Marta,  [ast_Latn/batch0.tsv](../annot_round1/spa_Latn/batch0.tsv)
+# Marta,  [ast_Latn/batch0.tsv](../annot_round1/ast_Latn/batch0.tsv)
 Porn: 
 * No porn at all.
 
