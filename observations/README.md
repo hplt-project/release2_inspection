@@ -41,7 +41,7 @@ Other:
 # Sampo,  [fin_Latn/batch0.tsv](../annot_round1/fin_Latn/batch0.tsv)
 
 * Porn: 2/200, one SEO spam and one terms of service -style text for a porn site.
-* Unnatural: 9/200, mostly poorly machine-translated or generated Finnish, one instance of mosly tabular data.
+* Unnatural: 9/200, mostly poorly machine-translated or generated Finnish, one instance of moslty tabular data.
 * Language: 100% Finnish.
 
 Miscellaneous notes:
