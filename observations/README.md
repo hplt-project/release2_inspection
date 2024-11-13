@@ -48,3 +48,6 @@ Miscellaneous notes:
 
 * Several Wikipedia pages, most including insertions such as "[Edit WikiText]". I did not mark these as unnatural despite the insertions breaking the flow. It might be possible to do better here by extracting Wikipedia pages from dumps with a custom tool.
 * Several instances of text where the latter part was a list of links, in cases consisting of fragments interrupted by e.g. "... [read more]". I did not mark these as unnatural. Cleanup would require some form of line-level filtering.
+
+# Proyag Pal,  [ben_Beng/batch0.tsv](../annot_round1/ben_Beng/batch0.tsv)
+"Didn't mark anything unnatural because none of them were mostly unnatural text, but there are many examples with dates and times interspersed with the text, probably from comments sections. Also a lot of lines have a header line (news headline or Wikipedia title) at the beginning continuing into the main text without any punctuation or delimiter."
