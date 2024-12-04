@@ -8,7 +8,7 @@ We want to get a rough idea about the actual content of the cleaned verion of th
 Additionally, we plan to compare these characteristics for the older and the newer crawls, and also for the IA and CC crawls.
 
 
-PROMPSIT ALTERNATIVE INSPECTION EFFORT ([20 docs per lang in HPLT v2](https://drive.google.com/file/d/131ZZZoF9rL9joftPDnrnWJJ3U-Wk6RCm/view?usp=sharing)): https://docs.google.com/spreadsheets/d/1f8QVm5L3nKcjlLVJipr2wN3Chuc4n5iEK6YWNN1uclU/edit?usp=sharing
+PROMPSIT ALTERNATIVE INSPECTION EFFORT ([20 docs per lang in HPLT v2](https://drive.google.com/file/d/1GNPIU9LoO8ewoE6uWdSGwU0zZP3BY0p7/view?usp=sharing)): [results](https://docs.google.com/spreadsheets/d/1f8QVm5L3nKcjlLVJipr2wN3Chuc4n5iEK6YWNN1uclU/edit?usp=sharing)
 
 
 ## Data for round 1 of inspection: 
