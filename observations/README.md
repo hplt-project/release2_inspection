@@ -22,6 +22,21 @@ Other:
 * Some "mixed content", this is, actual text with pieces of boilerplate inserted (i.e. 578d4b4056ba8794ede85d07dc1b1d7d or 3ff3eb1a9f4edefa9c649e928ee2671f)
 * More PII than I expected, mainly phone numbers and email adresses.
 
+# Ona,  [cat_Latn/batch0.tsv](../annot_round1/cat_Latn/batch0.tsv)
+Porn:
+No porn found at all.
+
+Unnatural language:
+* There are some wikipedia pages with "modify" or "edit code"
+* Some lists of services from hotels.
+
+Identified language: 
+* All the samples are in the correct language, except three that contain a sentence or two in English.
+
+Other:
+* In general, the content is varied (some advertising, some newspaper text, some forum threads with slang language, hotel advertisments, wikipedia pages, also some bureaucratic documents...)
+* Some glued words here and there. 
+
 
 # Marta,  [ast_Latn/batch0.tsv](../annot_round1/ast_Latn/batch0.tsv)
 Porn: 
