@@ -35,7 +35,26 @@ Identified language:
 
 Other:
 * In general, the content is varied (some advertising, some newspaper text, some forum threads with slang language, hotel advertisments, wikipedia pages, also some bureaucratic documents...)
-* Some glued words here and there. 
+* Some glued words here and there.
+
+From e-mail: 
+1) Sometimes there seem to be some sentence boundaries issues, like missing punctuation signs. I have not annotated this in any special way, just for you to know.
+
+    Lligar per SMS, enamorar-se per WhatsApp i trencar per mailUn relat de: Àlex Ribes --> mail. Un
+    Hospital de Dia d’Adolescents de Les Corts i Sarrià-Sant Gervasi (HDA) Què és HD per Adolescents? --> (HDA). Què
+    Cercador Vels esquinçatsUn relat de: OhCapità Brogit -->Cercador. Vels esquinçats. Un relat de: Oh Capità Brogit 
+
+2) Also, some samples look from Wikipedia and have the regular tags "modify, edit" and so on. I have marked it as unnatural language. For example:
+
+    . Referències[modifica | modifica el codi] - ↑ Transport for London. «Sobre London River Services (anglès)». [Consulta: 2008-04-01]. - ↑ ThamesClippers:
+
+3) There are quite a bit of texts from hotels, listing services and so on. It is not "natural" language per se, as they are lists. How should I tag them?
+
+    The Carlyle, A Rosewood Hotel New York, U.S.A.. Disponibilitat Instal·lacions General - Aparcament - Restaurant - Animals admesos - Bar - Recepció 24 hores - Premsa - Habitacions per a no fumadors - Adaptat per a persones de mobilitat reduïda - Ascensor - Caixa forta - Servei d'aparcador de cotxes - Calefacció - Guardaequipatges - Botigues - Zones comunes i privades per a no fumadors - Aire condicionat - Registre d'entrada/sortida exprés - Habitacions aptes per a al·lèrgics - Snack-bar - On-site
+
+4) Finally, some samples only had the beginning of the text, not two slices of text. I mean without the ".........." in the middle. I hope that's allright and something is not missing.
+
+
 
 
 # Marta,  [ast_Latn/batch0.tsv](../annot_round1/ast_Latn/batch0.tsv)
