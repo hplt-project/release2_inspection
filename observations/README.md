@@ -85,3 +85,18 @@ Miscellaneous notes:
 
 # Proyag Pal,  [ben_Beng/batch0.tsv](../annot_round1/ben_Beng/batch0.tsv)
 "Didn't mark anything unnatural because none of them were mostly unnatural text, but there are many examples with dates and times interspersed with the text, probably from comments sections. Also a lot of lines have a header line (news headline or Wikipedia title) at the beginning continuing into the main text without any punctuation or delimiter."
+
+
+# Petter,  [nob_Latn/batch1.tsv](../annot_round1/nob_Latn/batch1.tsv) and also [nno_Latn/batch0.tsv](../annot_round1/nno_Latn/batch0.tsv)
+Bokmål: Some pornography, 4/200, but also some sexually explicit material potentially related to commercials or discussions of sexual health.
+
+Quite a few of the unnatural-sounding texts are clear translations from various websites, such as travel-related sites.
+
+Some texts contain dialectal material which is not really Bokmål, but also not unnatural, and would not fit anywhere else either. 
+
+Similar to Finnish, there are many Wikipedia pages with similar insertions. I have not marked texts as unnatural as long as the language contained is in fact natural, even if there were some headers and lists, or wiki-related insertions. This is the same for Nynorsk.
+
+Nynorsk is also otherwise similar, containing some dialectal data, but no non-pornographic sexual material was identified.
+
+
+
