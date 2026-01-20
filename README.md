@@ -32,3 +32,8 @@ Inspecting 20 examples from Russian, batch0 took 5 minutes for me, thus, the est
 One way to inspec is using LibreOffice Calc. For convenience freeze first 4 columns (select them and click View -> Freeze Rows and Columns). Also make the text area larger. This can look like this:
 ![image](https://github.com/user-attachments/assets/0a89750c-7b8b-47c3-9beb-584431d27162)
 
+
+
+# Acknowledgements
+
+This project has received funding from the European Union’s Horizon Europe research and innovation programme under grant agreement No 101070350 and from UK Research and Innovation (UKRI) under the UK government’s Horizon Europe funding guarantee [grant number 10052546]
