@@ -1,11 +1,13 @@
 # release2_inspection
+This repository contains data, code and documentation related to manual inspection of [HPLT v2](https://hplt-project.org/datasets/v2.0).  
+
 ## Purpose of inspection
 We want to get a rough idea about the actual content of the cleaned verion of the 2nd data release. More specifically, for a subset that should correspond to some language L we want to estimate:
 1) the proportion of texts that are in fact not in the language L,
 2) the proportion of texts that can be considered undesirable because they are unnatural,
 3) the proportion of texts that can be considered undesirable porn texts.
 
-Additionally, we plan to compare these characteristics for the older and the newer crawls, and also for the IA and CC crawls.
+Additionally, we want to compare these characteristics for the older and the newer crawls, and also for the IA and CC crawls.
 
 
 PROMPSIT ALTERNATIVE INSPECTION EFFORT ([20 docs per lang in HPLT v2](https://drive.google.com/file/d/1GNPIU9LoO8ewoE6uWdSGwU0zZP3BY0p7/view?usp=sharing)): [results](https://docs.google.com/spreadsheets/d/1f8QVm5L3nKcjlLVJipr2wN3Chuc4n5iEK6YWNN1uclU/edit?usp=sharing)
@@ -13,25 +15,27 @@ PROMPSIT ALTERNATIVE INSPECTION EFFORT ([20 docs per lang in HPLT v2](https://dr
 
 ## Data for round 1 of inspection: 
 * samples stratified by language and crawl group,
-*  4 groups (cc/ia old/new),
+*  4 groups (cc/ia old/new), NB! these 4 groups do not cover the full dataset, so generalization of conclusions based on the annotated subset to the full dataset may be incorrect!
 *  first 5 batches per language,
 *  200 examples per batch,
 *  500/500 characters from the beginning of the fist/second half of each text.
 
 ## Inspection
-Please select one or more batches for a language you want to inspect. "Reserve" the batch(es) by filling in your name in the [spreadsheet](https://docs.google.com/spreadsheets/d/1WleDoN8JEicVdW5S-hvOXId-BxWIVnJc2oVxn_YC41M/edit?usp=sharing).
-Fill in the labels and push the updated files back to this repository.
+Inspection is performed by volunteers who were mostly the members of the HPLT project. Volunteers inspect languages 
+which they are native or fluent speakers of following the [guidelines](GUIDELINES.md).
 
-We ask to provide 3 binary labels for each example:
-* porn? empty/1: if the text looks like porn put 1, otherwise leave empty
-* unnatural? empty/1: if the most text looks unnatural (e.g. word lists for SEO, mostly boilerplate) put 1, otherwise leave empty
-* lang correct? 0/1: always fill this field (otherwise we will not distinguish labeled and unlabeled examples), put 0 if most of the text is not in the target language, otherwise put 1.
 
-## Advice on inspection
-Inspecting 20 examples from Russian, batch0 took 5 minutes for me, thus, the estimated time for inspecting 1 batch is 1 hour.
-One way to inspec is using LibreOffice Calc. For convenience freeze first 4 columns (select them and click View -> Freeze Rows and Columns). Also make the text area larger. This can look like this:
-![image](https://github.com/user-attachments/assets/0a89750c-7b8b-47c3-9beb-584431d27162)
-
+## Results
+Data:
+- [the original sample](per_lang_group_1K)
+- [the sample converted to a format appropriate for annotation, partially annotated](annot_round1)
+- [observations provided by the annotators](observations/README.md)
+- [all annotations](annotations.tsv)
+- [all annotated documents in one file along with annotations](annotated.jsonl.zst)
+- 
+Analysis:
+- [summary table](results_per_lang.tsv)
+- [detailed analysis](Proportions.ipynb)
 
 
 # Acknowledgements
